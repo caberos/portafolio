@@ -3,7 +3,7 @@ name: Deploy Streamlit app to GitHub Pages
 on:
   push:
     branches:
-      - master  
+      - master
 
 jobs:
   deploy:
@@ -16,7 +16,7 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v2
         with:
-          python-version: '3.0'
+          python-version:  ${{ env.PYTHON_VERSION }}
 
       - name: Install dependencies
         run: |
