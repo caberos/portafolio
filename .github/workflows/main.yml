@@ -18,10 +18,10 @@ jobs:
         with:
           python-version: '3.x'
 
-#      - name: Install dependencies
-#        run: |
-#          python -m pip install --upgrade pip
-#          pip install -r requirements.txt
+      #      - name: Install dependencies
+      #        run: |
+      #          python -m pip install --upgrade pip
+      #          pip install -r requirements.txt
 
       - name: Run Streamlit in the background
         run: |
@@ -29,10 +29,13 @@ jobs:
           echo "[server]\nheadless = true\nport = 8501\nenableCORS = false\n\n[browser]\ngatherUsageStats = false" > ~/.streamlit/config.toml
           nohup streamlit run app.py &  sleep 60
 
-      - name: Verify Streamlit is running
+      - name: Check if Streamlit is running
         run: |
-          curl -f http://localhost:8501 || http://192.168.0.126:8501 || exit 1
-
+          if ! curl -f http://localhost:8501; then
+            echo "Streamlit no se está ejecutando. Mostrando los logs para diagnosticar."
+            cat nohup.out
+            exit 1
+          fi
       - name: Generate Static HTML
         run: |
           wget --mirror --convert-links --adjust-extension --page-requisites --no-parent http://localhost:8501
