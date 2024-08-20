@@ -23,26 +23,24 @@ jobs:
 #            python -m pip install --upgrade pip
             pip install -r requirements.txt
 
-            - name: Run Streamlit in the background
-              run: |
+      - name: Run Streamlit in the background
+        run: |
                 mkdir -p ~/.streamlit/
                 echo "[server]\nheadless = true\nport = 8501\nenableCORS = false\n\n[browser]\ngatherUsageStats = false" > ~/.streamlit/config.toml
-                nohup streamlit run app.py &
+                nohup 
+                streamlit run app.py & sleep 60
 
-            - name: Wait for Streamlit to start
-              run: sleep 60
-
-            - name: Verify Streamlit is running
-              run: |
+      - name: Verify Streamlit is running
+        run: |
                 curl -f http://localhost:8501 || exit 1
 
-            - name: Generate Static HTML
-              run: |
+      - name: Generate Static HTML
+        run: |
                 wget --mirror --convert-links --adjust-extension --page-requisites --no-parent http://localhost:8501
                 mv localhost:8501 public
 
-            - name: Deploy to GitHub Pages
-              run: |
+      - name: Deploy to GitHub Pages
+        run: |
                 git config --global user.name "caberos"
                 git add public/
                 git commit -m "Deploy Streamlit app to GitHub Pages"
