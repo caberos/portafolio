@@ -1,0 +1,49 @@
+{
+    "about": "About me",
+    "experience": "Experience",
+    "projects": "Projects",
+    "education": "Education",
+    "skills": "Skills",
+    "contact": "Contact",
+    "greeting": "Hello, I'm Daniel Cabero",
+    "street":" · Satinadores de Selva street · Cochabamba, BO · (+591) 60792226 ·",
+    "email":"cabernaldo010788@gmail.com",
+    "description": "Tech engineer with over 6 years of experience in API development and support, specializing in automation tools and backend system optimization. Proven track record in implementing solutions that boost development team efficiency, with a strong focus on continuous integration and performance enhancement of key systems",
+    "experience_title": "Experiencia Profesional",
+    "experiences": [
+      {
+        "title": "Fullstack Developer",
+        "company": "Simulated Bank - Project on request",
+        "location": "Cochabamba, Bolivia",
+        "duration": "2024 - 2025 ",
+        "points": [
+          "Complete simulation of a bank teller's workflow.",
+          "Backend development and non-relational database (MongoDB).",
+          "Creation of dynamic forms with validations for internal users."
+        ]
+      },
+      {
+        "title": "Automatión QA Engineer",
+        "company": "Jalasoft",
+        "location": "Cochabamba, Bolivia",
+        "duration": "2017 - 2019",
+        "points": [
+          "Collaborated closely with cross-functional teams to architect, develop, and maintain robust backend systems, ensuring seamless integration with front-end applications and optimizing system performance.",
+          "Performed comprehensive unit and integration testing to identify and resolve software defects, resulting in increased reliability and performance of key system components",
+          "Implemented continuous integration practices, leveraging Java (Gradle, Maven) and Python to initiate and streamline project workflows, boosting development efficiency and code quality"
+        ]
+      },
+      {
+        "title": "Tech API Support and API developer",
+        "company": "Jalasoft - IBM Clasic Infrastructure",
+        "location": "Cochabamba, Bolivia",
+        "duration": "2019 - 2023",
+        "points": [
+          "Developed and maintained command-line interface (CLI) tools to streamline API management and support.",
+          "Diagnosed and resolved real-time technical issues for developers and clients, improving API performance",
+          "Created comprehensive API documentation, reducing client onboarding time by 40%."
+        ]
+      }
+    ]
+  }
+  

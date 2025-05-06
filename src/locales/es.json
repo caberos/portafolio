@@ -1,0 +1,51 @@
+{
+    "about": "Sobre mí",
+    "experience": "Experiencia",
+    "projects": "Proyectos",
+    "education": "Educación",
+    "skills": "Habilidades",
+    "contact": "Contacto",
+    "greeting": "Hola, soy Daniel Cabero",
+    "street":" · Calle Satinadores de Selva · Cochabamba, BO · (+591) 60792226 ·",
+    "email":" cabernaldo010788@gmail.com",
+    "description": "Ingeniero técnico con más de 6 años de experiencia en desarrollo y soporte de API, especializado en herramientas de automatización y optimización de sistemas backend. Experiencia demostrada en la implementación de soluciones que impulsan la eficiencia del equipo de desarrollo, con un fuerte enfoque en la integración continua y la mejora del rendimiento de sistemas clave.",
+    "experience_title": "Experiencia Profesional",
+    "experiences": [
+      {
+        "title": "Desarrollador Fullstack",
+        "company": "Banco Simulado - Proyecto a pedido",
+        "location": "Cochabamba, Bolivia",
+        "duration": "2024 - 2025",
+        "points": [
+          "Simulación completa del flujo de operaciones de un cajero bancario.",
+          "Desarrollo del backend y base de datos no relacional (MongoDB).",
+          "Creación de formularios dinámicos con validaciones para usuarios internos."
+        ]
+      },
+      {
+        "title": "Ingeniero de Automatización QA",
+        "company": "Jalasoft",
+        "location": "Cochabamba, Bolivia",
+        "duration": "2017 - 2019",
+        "points": [
+          "Colaboré estrechamente con equipos multifuncionales para diseñar, desarrollar y mantener sistemas backend robustos, garantizando una integración fluida con las aplicaciones frontend y optimizando el rendimiento del sistema.",
+          "• Realicé pruebas unitarias y de integración exhaustivas para identificar y resolver defectos de software, lo que resultó en una mayor confiabilidad y rendimiento de los componentes clave del sistema.",
+          "• Implementé prácticas de integración continua, aprovechando Java (Gradle, Maven) y Python para iniciar y optimizar los flujos de trabajo del proyecto, impulsando la eficiencia del desarrollo y la calidad del código."
+        ]
+      },
+      {
+        "title": "Soporte técnico de API y desarrollador de API",
+        "company": "Jalasoft - IBM Clasic Infrastructure",
+        "location": "Cochabamba, Bolivia",
+        "duration": "2019 - 2023",
+        "points": [
+          "Se desarrollaron y mantuvieron herramientas de interfaz de línea de comandos (CLI) para optimizar la gestión y el soporte de API.",
+          "Diagnosticé y resolví problemas técnicos en tiempo real para desarrolladores y clientes, mejorando el rendimiento de la API.",
+          "Creé documentación completa de la API, reduciendo el tiempo de incorporación de clientes en un 40 %."
+        ]
+      }
+    ]
+}
+  
+  
+  
