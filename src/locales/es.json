@@ -23,17 +23,6 @@
         ]
       },
       {
-        "title": "Ingeniero de Automatización QA",
-        "company": "Jalasoft",
-        "location": "Cochabamba, Bolivia",
-        "duration": "2017 - 2019",
-        "points": [
-          "Colaboré estrechamente con equipos multifuncionales para diseñar, desarrollar y mantener sistemas backend robustos, garantizando una integración fluida con las aplicaciones frontend y optimizando el rendimiento del sistema.",
-          "• Realicé pruebas unitarias y de integración exhaustivas para identificar y resolver defectos de software, lo que resultó en una mayor confiabilidad y rendimiento de los componentes clave del sistema.",
-          "• Implementé prácticas de integración continua, aprovechando Java (Gradle, Maven) y Python para iniciar y optimizar los flujos de trabajo del proyecto, impulsando la eficiencia del desarrollo y la calidad del código."
-        ]
-      },
-      {
         "title": "Soporte técnico de API y desarrollador de API",
         "company": "Jalasoft - IBM Clasic Infrastructure",
         "location": "Cochabamba, Bolivia",
@@ -43,8 +32,72 @@
           "Diagnosticé y resolví problemas técnicos en tiempo real para desarrolladores y clientes, mejorando el rendimiento de la API.",
           "Creé documentación completa de la API, reduciendo el tiempo de incorporación de clientes en un 40 %."
         ]
+      },{
+        "title": "Ingeniero de Automatización QA",
+        "company": "Jalasoft",
+        "location": "Cochabamba, Bolivia",
+        "duration": "2017 - 2019",
+        "points": [
+          "Colaboré estrechamente con equipos multifuncionales para diseñar, desarrollar y mantener sistemas backend robustos, garantizando una integración fluida con las aplicaciones frontend y optimizando el rendimiento del sistema.",
+          "Realicé pruebas unitarias y de integración exhaustivas para identificar y resolver defectos de software, lo que resultó en una mayor confiabilidad y rendimiento de los componentes clave del sistema.",
+          "Implementé prácticas de integración continua, aprovechando Java (Gradle, Maven) y Python para iniciar y optimizar los flujos de trabajo del proyecto, impulsando la eficiencia del desarrollo y la calidad del código."
+        ]
       }
-    ]
+    ],
+    "education_title": "Formación Académica",
+    "education_list": [
+    {
+      "degree": "Lic. Ingeniería de Sistemas",
+      "institution": "Universidad Mayor de San Simón",
+      "location": "Cochabamba, Bolivia",
+      "duration": "2007 - 2023"
+    },
+    {
+      "degree": "Programa de Aseguramiento de Calidad y Automatización",
+      "institution": "Fundacion Jalasoft",
+      "location": "Cochabamba, Bolivia",
+      "duration": "Enero - Agosto, 2017"
+    },
+    {
+      "degree": "Diplomado en Desarrollo de Aplicaciones Empresariales",
+      "institution": "Facultad de Ciencias y Tecnología - UMSS",
+      "location": "Cochabamba, Bolivia",
+      "duration": "2023 - 2024"
+    },
+    {
+      "degree": "CCNA: Introducción a las redes",
+      "institution": "Academia de redes de Cisco",
+      "location": "Online",
+      "duration": "2021"
+    }
+  ],
+  "projects_title": "Proyectos Destacados",
+  "projects_list": [
+    {
+      "name": "Simulador de Caja Bancaria",
+      "description": "Sistema que simula operaciones bancarias diarias, con formularios para cajeros, base de datos no relacional y backend Flask.",
+      "technologies": ["Flask", "MongoDB", "Bootstrap"],
+      "link": "https://github.com/caberos/simulador-bancario"
+    },
+    {
+      "name": "API de Productos",
+      "description": "API RESTful para la gestión de productos y stock, con autenticación JWT y documentación Swagger.",
+      "technologies": ["Node.js", "Express", "MongoDB", "Swagger"],
+      "link": "https://github.com/caberos/api-productos"
+    }
+  ],
+  "skills_title": "Habilidades Técnicas",
+  "skills_list": [
+    "Python", "Java", "JavaScript", "Node.js",
+    "Spring Boot", "Django", "Flask", "MongoDB",
+    "Selenium", "Cypress", "Robot Framework", "React",
+    "TailwindCSS", "Bootstrap", "PostgreSQL"
+  ],
+
+  "contact_title": "Contacto",
+  "contact_description": "¿Tienes una idea, propuesta o deseas trabajar conmigo? Estoy disponible para colaborar en proyectos o responder cualquier consulta.",
+  "contact_email": "cabernaldo010788@gmail.com",
+  "contact_button": "Enviar mensaje"
 }
   
   

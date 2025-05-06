@@ -1,25 +1,36 @@
+import React from 'react';
+import { useTranslation } from 'react-i18next';
 
+export default function Projects() {
+  const { t } = useTranslation();
+  const projects = t('projects_list', { returnObjects: true });
 
-export default function Projects(){
-    return(
-        <div className="d-flex justify-content-center align-items-center vh-100">
-        <section className="resume-section text-center" id="projects">
-          <div className="resume-section-content">
-            <h1 className="mb-0">
-              Projects  
-             
-            </h1>
-            <div className="subheading mb-4">
-              Calle Satinadores de Selva · Cochabamba, BO · (+591) 60792226 ·
-            </div>
-            <p className="lead mb-4">
-              Tech engineer with over 6 years of experience in API development and support, specializing in automation tools and backend system optimization. Proven track record in implementing solutions that boost development team efficiency, with a strong focus on continuous integration and performance enhancement of key systems.
-            </p>
-            <div className="social-icons">
-              {/* Aquí puedes poner íconos sociales si quieres */}
+  return (
+    <section id="projects" className="container py-4">
+      <h2 className="mb-4 border-bottom pb-2">{t('projects_title')}</h2>
+
+      <div className="row">
+        {projects.map((proj, idx) => (
+          <div className="col-md-6 mb-4" key={idx}>
+            <div className="card h-100 shadow-sm">
+              <div className="card-body">
+                <h5 className="card-title">{proj.name}</h5>
+                <p className="card-text text-justify">{proj.description}</p>
+                <div className="mb-2">
+                  {proj.technologies.map((tech, i) => (
+                    <span key={i} className="badge bg-secondary me-1">{tech}</span>
+                  ))}
+                </div>
+                {proj.link && (
+                  <a href={proj.link} target="_blank" rel="noopener noreferrer" className="btn btn-outline-primary btn-sm">
+                    Ver código
+                  </a>
+                )}
+              </div>
             </div>
           </div>
-        </section>
+        ))}
       </div>
-    )
+    </section>
+  );
 }

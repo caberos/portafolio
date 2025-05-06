@@ -6,17 +6,17 @@ export default function Experience() {
   const experiences = t('experiences', { returnObjects: true });
 
   return (
-    <section id="experience" className="container py-3">
-      <h2 className="">{t('experience_title')}</h2>
+    <section id="experience" className="container py-4">
+      <h2 className="mb-3 border-bottom pb-2 text-center">{t('experience_title')}</h2>
       {experiences.map((exp, idx) => (
-        <div key={idx} className="">
-          <h4>{exp.title}</h4>
-          <h5 className="text-muted">{exp.company}</h5>
-          <p className="">{exp.location} · {exp.duration}</p>
-          <ul>
-            {exp.points.map((point, i) => (
-              <li key={i}>{point}</li>
-            ))}
+        <div key={idx} className="mb-3">
+          <h5 className="fw-semibold">{exp.title}</h5>
+          <span className="ps-3 text-muted d-block ">{exp.company}</span>
+          <small className="ps-4 text-secondary fst-italic">{exp.location} · {exp.duration}</small>
+          <ul className="ps-5 mt-2">
+          {exp.points.map((point, i) => (
+            <li key={i} className="">{point}</li>
+          ))}
           </ul>
         </div>
       ))}

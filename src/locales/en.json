@@ -23,17 +23,6 @@
         ]
       },
       {
-        "title": "Automatión QA Engineer",
-        "company": "Jalasoft",
-        "location": "Cochabamba, Bolivia",
-        "duration": "2017 - 2019",
-        "points": [
-          "Collaborated closely with cross-functional teams to architect, develop, and maintain robust backend systems, ensuring seamless integration with front-end applications and optimizing system performance.",
-          "Performed comprehensive unit and integration testing to identify and resolve software defects, resulting in increased reliability and performance of key system components",
-          "Implemented continuous integration practices, leveraging Java (Gradle, Maven) and Python to initiate and streamline project workflows, boosting development efficiency and code quality"
-        ]
-      },
-      {
         "title": "Tech API Support and API developer",
         "company": "Jalasoft - IBM Clasic Infrastructure",
         "location": "Cochabamba, Bolivia",
@@ -43,7 +32,45 @@
           "Diagnosed and resolved real-time technical issues for developers and clients, improving API performance",
           "Created comprehensive API documentation, reducing client onboarding time by 40%."
         ]
+      },
+      {
+        "title": "Automatión QA Engineer",
+        "company": "Jalasoft",
+        "location": "Cochabamba, Bolivia",
+        "duration": "2017 - 2019",
+        "points": [
+          "Collaborated closely with cross-functional teams to architect, develop, and maintain robust backend systems, ensuring seamless integration with front-end applications and optimizing system performance.",
+          "Performed comprehensive unit and integration testing to identify and resolve software defects, resulting in increased reliability and performance of key system components",
+          "Implemented continuous integration practices, leveraging Java (Gradle, Maven) and Python to initiate and streamline project workflows, boosting development efficiency and code quality"
+        ]
       }
-    ]
+    ],
+    "education_title": "Académic Training",
+    "education_list": [
+    {
+      "degree": "Bachelor's Degree in Systems Engineering",
+      "institution": "Major University of San Simón(UMSS)",
+      "location": "Cochabamba, Bolivia",
+      "duration": "2007 - 2023"
+    },
+    {
+      "degree": "Quality Assurance and Automation program",
+      "institution": "Jalasoft Fundations",
+      "location": "Cochabamba, Bolivia",
+      "duration": "January - August, 2017"
+    },
+    {
+      "degree": "Diploma in Business Application Development",
+      "institution": "Faculty of Science and Technology - UMSS",
+      "location": "Cochabamba, Bolivia",
+      "duration": "2023 - 2024"
+    },
+    {
+      "degree": "CCNA: Introduction to Networks",
+      "institution": "Cisco Networking Academy",
+      "location": "Online",
+      "duration": "2021"
+    }
+  ]
   }
   

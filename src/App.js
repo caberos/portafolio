@@ -21,8 +21,8 @@ export default function App() {
         <div className="col-md-9 offset-md-3 col-lg-10 offset-lg-2 p-4">
           <Index />
           <Experience />
-          <Projects />
           <Education />
+          <Projects />
           <Skills />
           <Contacts />
         </div>

@@ -40,8 +40,8 @@ function NavbarContent() {
     <ul className="nav flex-column">
       <li className="nav-item"><a className="nav-link text-white" href="#about">{t('about')}</a></li>
       <li className="nav-item"><a className="nav-link text-white" href="#experience">{t('experience')}</a></li>
-      <li className="nav-item"><a className="nav-link text-white" href="#projects">{t('projects')}</a></li>
       <li className="nav-item"><a className="nav-link text-white" href="#education">{t('education')}</a></li>
+      <li className="nav-item"><a className="nav-link text-white" href="#projects">{t('projects')}</a></li>
       <li className="nav-item"><a className="nav-link text-white" href="#skills">{t('skills')}</a></li>
       <li className="nav-item"><a className="nav-link text-white" href="#contact">{t('contact')}</a></li>
     </ul>
