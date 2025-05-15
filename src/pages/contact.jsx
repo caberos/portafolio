@@ -11,21 +11,21 @@ export default function Contact() {
 
       <form action={`mailto:${t('contact_email')}`} method="POST" encType="text/plain">
         <div className="mb-3">
-          <label htmlFor="name" className="form-label">Nombre</label>
+          <label htmlFor="name" className="form-label">{t('name')}</label>
           <input type="text" className="form-control" id="name" name="name" required />
         </div>
 
         <div className="mb-3">
-          <label htmlFor="email" className="form-label">Correo</label>
+          <label htmlFor="email" className="form-label">{t('email_To')}</label>
           <input type="email" className="form-control" id="email" name="email" required />
         </div>
 
         <div className="mb-3">
-          <label htmlFor="message" className="form-label">Mensaje</label>
+          <label htmlFor="message" className="form-label">{t('message')}</label>
           <textarea className="form-control" id="message" name="message" rows="4" required></textarea>
         </div>
 
-        <button type="submit" className="btn btn-primary">{t('contact_button')}</button>
+        <button type="submit" className="btn btn-primary">{t('send')}</button>
       </form>
     </section>
   );

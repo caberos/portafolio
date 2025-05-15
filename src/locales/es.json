@@ -80,24 +80,49 @@
       "link": "https://github.com/caberos/simulador-bancario"
     },
     {
-      "name": "API de Productos",
+      "name": "Inventario de Productos API",
       "description": "API RESTful para la gestión de productos y stock, con autenticación JWT y documentación Swagger.",
-      "technologies": ["Node.js", "Express", "MongoDB", "Swagger"],
-      "link": "https://github.com/caberos/api-productos"
-    }
+      "technologies": ["Python", "Flask", "MongoDB", "Swagger"],
+      "link": "https://github.com/caberos/erpbackend/tree/database"
+    },
+    {
+      "name": "Automatización de Pruebas con Selenium",
+      "description": "Automatización de pruebas de interfaz de usuario para una aplicación web utilizando Selenium y Java.",
+      "technologies": ["Java", "Selenium", "Cucumber", "Gradle"],
+      "link": "https://github.com/caberos/templateAutomation"
+    }, 
+    {
+      "name": "Automatización de Pruebas con Robot Framework",
+      "description": "Automatización de pruebas de interfaz de usuario para una aplicación web utilizando Selenium y Robot Framework.",
+      "technologies": ["Python", "Selenium", "Robot Framework"],
+      "link": "https://github.com/caberos/robotFramework"
+    }, 
+    {
+      "name": "ERP Recursos Humanos",
+      "description": "Sistema para una empresa para registro de empleados, Departamentos, y accesorios, informacion de los empleados, equipos de trabajo y moviliario.",
+      "technologies": ["Java", "Spring Boot", "React", "PostgreSQL", "Bootstrap"],
+      "link": "https://github.com/caberos/ERPHHRR"
+    } 
   ],
   "skills_title": "Habilidades Técnicas",
   "skills_list": [
     "Python", "Java", "JavaScript", "Node.js",
     "Spring Boot", "Django", "Flask", "MongoDB",
     "Selenium", "Cypress", "Robot Framework", "React",
-    "TailwindCSS", "Bootstrap", "PostgreSQL"
+    "TailwindCSS", "Bootstrap", "PostgreSQL","Cucumber",
+    "Jenkins", "Git", "Jira",   "GitHub", "Bitbucket","AWS",
+    "Agile", "Scrum", "Kanban", "Postman","Mysql",
+    "Swagger", "HTML", "CSS"
   ],
 
   "contact_title": "Contacto",
   "contact_description": "¿Tienes una idea, propuesta o deseas trabajar conmigo? Estoy disponible para colaborar en proyectos o responder cualquier consulta.",
   "contact_email": "cabernaldo010788@gmail.com",
-  "contact_button": "Enviar mensaje"
+  "contact_button": "Enviar mensaje",
+  "name":"Nombre",
+  "email_To":"Correo electrónico",
+  "message":"Mensaje",
+  "send":"Enviar"
 }
   
   

@@ -71,6 +71,58 @@
       "location": "Online",
       "duration": "2021"
     }
-  ]
+  ],
+  "projects_title": "Proyectos Destacados",
+  "projects_list": [
+    {
+      "name": "Bank Cash Simulator",
+      "description": "A system that simulates daily banking operations, with forms for tellers, a non-relational database, and a Flask backend.",
+      "technologies": ["Flask", "MongoDB", "Bootstrap","React", "Python"],
+      "link": "https://banktellerui.onrender.com/home"
+    },
+    {
+      "name": "API Product Inventory",
+      "description": "RESTful API for product and inventory management, with JWT authentication and Swagger documentation.",
+      "technologies": ["Python", "Flask", "MongoDB", "Swagger"],
+      "link": "https://github.com/caberos/erpbackend/tree/database"
+    },
+    {
+      "name": "UI Test Automation with Selenium",
+      "description": "Automated user interface testing for a web application using Selenium and Java.",
+      "technologies": ["Java", "Selenium", "Cucumber", "Gradle"],
+      "link": "https://github.com/caberos/templateAutomation"
+    },
+    {
+      "name": "UI Test Automation with Robot Framework",
+      "description": "Automated user interface testing for a web application using Selenium and Robot Framework.",
+      "technologies": ["Python", "Selenium", "Robot Framework"],
+      "link": "https://github.com/caberos/robotFramework"
+    },
+    {
+      "name": "HR ERP System",
+      "description": "A system for a company to register employees, departments, assets, employee information, work teams, and equipment.",
+      "technologies": ["Java", "Spring Boot", "React", "PostgreSQL", "Bootstrap"],
+      "link": "https://github.com/caberos/ERPHHRR"
+    }
+  ],
+  "skills_title": "Technical Skills",
+  "skills_list": [
+    "Python", "Java", "JavaScript", "Node.js",
+    "Spring Boot", "Django", "Flask", "MongoDB",
+    "Selenium", "Cypress", "Robot Framework", "React",
+    "TailwindCSS", "Bootstrap", "PostgreSQL","Cucumber",
+    "Jenkins", "Git", "Jira",   "GitHub", "Bitbucket","AWS",
+    "Agile", "Scrum", "Kanban", "Postman","Mysql",
+    "Swagger", "HTML", "CSS"
+  ],
+
+  "contact_title": "Contact",
+  "contact_description": "¿Do you have an idea, a proposal, or would you like to work with me? I'm available to collaborate on projects or answer any questions.",
+  "contact_email": "cabernaldo010788@gmail.com",
+  "contact_button": "Send message",
+  "name":"Name",
+  "email_To":"Email",
+  "message":"Message",
+  "send":"Send"
   }
   

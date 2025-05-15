@@ -35,18 +35,19 @@ function NavbarContent() {
       };
 
   return (
-    <div>
-    <div>
-    <ul className="nav flex-column">
-      <li className="nav-item"><a className="nav-link text-white" href="#about">{t('about')}</a></li>
-      <li className="nav-item"><a className="nav-link text-white" href="#experience">{t('experience')}</a></li>
-      <li className="nav-item"><a className="nav-link text-white" href="#education">{t('education')}</a></li>
-      <li className="nav-item"><a className="nav-link text-white" href="#projects">{t('projects')}</a></li>
-      <li className="nav-item"><a className="nav-link text-white" href="#skills">{t('skills')}</a></li>
-      <li className="nav-item"><a className="nav-link text-white" href="#contact">{t('contact')}</a></li>
-    </ul>
-    </div>
-    <div className="mt-auto">
+    <div className="d-flex flex-column h-100">
+      <div className=''>
+        <ul className="nav flex-column mb-4">
+          <li className="nav-item"><a className="nav-link text-white" href="#about">{t('about')}</a></li>
+          <li className="nav-item"><a className="nav-link text-white" href="#experience">{t('experience')}</a></li>
+          <li className="nav-item"><a className="nav-link text-white" href="#education">{t('education')}</a></li>
+          <li className="nav-item"><a className="nav-link text-white" href="#projects">{t('projects')}</a></li>
+          <li className="nav-item"><a className="nav-link text-white" href="#skills">{t('skills')}</a></li>
+          <li className="nav-item"><a className="nav-link text-white" href="#contact">{t('contact')}</a></li>
+        </ul>
+      </div>
+      <div className="my-auto"></div>
+      <div className='text-center'>
         <hr className="bg-light" />
         <div className="btn-group" role="group">
           <button onClick={() => changeLanguage('es')} className="btn btn-sm btn-light">ES</button>
@@ -54,6 +55,5 @@ function NavbarContent() {
         </div>
       </div>
     </div>
-    
   );
 }
