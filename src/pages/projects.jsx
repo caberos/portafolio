@@ -7,7 +7,7 @@ export default function Projects() {
 
   return (
     <section id="projects" className="container py-4">
-      <h2 className="mb-4 border-bottom pb-2">{t('projects_title')}</h2>
+      <h2 className="mb-4 border-bottom pb-2 text-center">{t('projects_title')}</h2>
 
       <div className="row">
         {projects.map((proj, idx) => (

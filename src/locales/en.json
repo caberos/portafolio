@@ -8,8 +8,7 @@
     "greeting": "Hello, I'm Daniel Cabero",
     "street":" · Satinadores de Selva street · Cochabamba, BO · (+591) 60792226 ·",
     "email":"cabernaldo010788@gmail.com",
-    "description": "Tech engineer with over 6 years of experience in API development and support, specializing in automation tools and backend system optimization. Proven track record in implementing solutions that boost development team efficiency, with a strong focus on continuous integration and performance enhancement of key systems",
-    "experience_title": "Experiencia Profesional",
+    "description": "Specialist in the development and improvement of technological systems for digital transformation. Experienced in implementing backend tools, automations, and APIs that have reduced operational times by up to 50%. Focused on operational efficiency, IT best practices, and collaborative work. Skilled at evaluating, optimizing, and innovating critical systems, aligned with modern development standards.",
     "experiences": [
       {
         "title": "Fullstack Developer",
@@ -28,9 +27,10 @@
         "location": "Cochabamba, Bolivia",
         "duration": "2019 - 2023",
         "points": [
-          "Developed and maintained command-line interface (CLI) tools to streamline API management and support.",
-          "Diagnosed and resolved real-time technical issues for developers and clients, improving API performance",
-          "Created comprehensive API documentation, reducing client onboarding time by 40%."
+            "Implemented command-line tools (CLI) that optimized API management and support.",
+            "Documented APIs thoroughly, reducing client onboarding time by 40%.",
+            "Diagnosed and resolved critical issues in real time, improving system efficiency.",
+            "Applied IT best practices to ensure scalability, security, and standardization."
         ]
       },
       {
@@ -113,7 +113,7 @@
     "TailwindCSS", "Bootstrap", "PostgreSQL","Cucumber",
     "Jenkins", "Git", "Jira",   "GitHub", "Bitbucket","AWS",
     "Agile", "Scrum", "Kanban", "Postman","Mysql",
-    "Swagger", "HTML", "CSS"
+    "Swagger", "HTML", "CSS", "AWS", "SST"
   ],
 
   "contact_title": "Contact",

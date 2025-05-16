@@ -28,26 +28,26 @@ export default function Navbar() {
 }
 
 function NavbarContent() {
-    const { t, i18n } = useTranslation();
-    
-    const changeLanguage = (lng) => {
-        i18n.changeLanguage(lng);
-      };
+  const { t, i18n } = useTranslation();
+
+  const changeLanguage = (lng) => {
+    i18n.changeLanguage(lng);
+  };
 
   return (
-    <div className="d-flex flex-column h-100">
-      <div className=''>
-        <ul className="nav flex-column mb-4">
+    <div className="d-flex flex-column justify-content-between h-100">
+      {/* Contenido centralizado */}
+      <div className="d-flex flex-column justify-content-center flex-grow-1">
+        <ul className="nav flex-column text-center">
           <li className="nav-item"><a className="nav-link text-white" href="#about">{t('about')}</a></li>
           <li className="nav-item"><a className="nav-link text-white" href="#experience">{t('experience')}</a></li>
           <li className="nav-item"><a className="nav-link text-white" href="#education">{t('education')}</a></li>
           <li className="nav-item"><a className="nav-link text-white" href="#projects">{t('projects')}</a></li>
           <li className="nav-item"><a className="nav-link text-white" href="#skills">{t('skills')}</a></li>
-          <li className="nav-item"><a className="nav-link text-white" href="#contact">{t('contact')}</a></li>
         </ul>
       </div>
-      <div className="my-auto"></div>
-      <div className='text-center'>
+
+      <div className="text-center mt-4">
         <hr className="bg-light" />
         <div className="btn-group" role="group">
           <button onClick={() => changeLanguage('es')} className="btn btn-sm btn-light">ES</button>

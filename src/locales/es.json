@@ -5,10 +5,10 @@
     "education": "Educación",
     "skills": "Habilidades",
     "contact": "Contacto",
-    "greeting": "Hola, soy Daniel Cabero",
+    "greeting": "Hola, Soy Daniel Cabero",
     "street":" · Calle Satinadores de Selva · Cochabamba, BO · (+591) 60792226 ·",
     "email":" cabernaldo010788@gmail.com",
-    "description": "Ingeniero técnico con más de 6 años de experiencia en desarrollo y soporte de API, especializado en herramientas de automatización y optimización de sistemas backend. Experiencia demostrada en la implementación de soluciones que impulsan la eficiencia del equipo de desarrollo, con un fuerte enfoque en la integración continua y la mejora del rendimiento de sistemas clave.",
+    "description": "Especialista en el desarrollo y mejora de sistemas tecnológicos para la transformación digital. Experiencia implementando herramientas backend, automatizaciones y APIs que han reducido tiempos operativos hasta en un 50%. Enfocado en eficiencia operativa, buenas prácticas de TI y trabajo colaborativo. Capacidad para evaluar, optimizar e innovar sistemas críticos, alineado con estándares modernos de desarrollo.",
     "experience_title": "Experiencia Profesional",
     "experiences": [
       {
@@ -28,9 +28,10 @@
         "location": "Cochabamba, Bolivia",
         "duration": "2019 - 2023",
         "points": [
-          "Se desarrollaron y mantuvieron herramientas de interfaz de línea de comandos (CLI) para optimizar la gestión y el soporte de API.",
-          "Diagnosticé y resolví problemas técnicos en tiempo real para desarrolladores y clientes, mejorando el rendimiento de la API.",
-          "Creé documentación completa de la API, reduciendo el tiempo de incorporación de clientes en un 40 %."
+          " Implementé herramientas de línea de comandos (CLI) que optimizaron la administración de APIs y el soporte.",
+          " Documenté APIs de forma completa, reduciendo el onboarding de clientes en un 40%",
+          "Diagnostiqué y resolví problemas críticos en tiempo real, mejorando la eficiencia del sistema",
+          "Apliqué buenas prácticas de TI para garantizar escalabilidad, seguridad y estandarización."
         ]
       },{
         "title": "Ingeniero de Automatización QA",
@@ -40,7 +41,8 @@
         "points": [
           "Colaboré estrechamente con equipos multifuncionales para diseñar, desarrollar y mantener sistemas backend robustos, garantizando una integración fluida con las aplicaciones frontend y optimizando el rendimiento del sistema.",
           "Realicé pruebas unitarias y de integración exhaustivas para identificar y resolver defectos de software, lo que resultó en una mayor confiabilidad y rendimiento de los componentes clave del sistema.",
-          "Implementé prácticas de integración continua, aprovechando Java (Gradle, Maven) y Python para iniciar y optimizar los flujos de trabajo del proyecto, impulsando la eficiencia del desarrollo y la calidad del código."
+          "Implementé prácticas de integración continua, aprovechando Java (Gradle, Maven) y Python para iniciar y optimizar los flujos de trabajo del proyecto, impulsando la eficiencia del desarrollo y la calidad del código.",
+          "Contribuí a procesos de transformación digital fortaleciendo la calidad del software entregado."
         ]
       }
     ],

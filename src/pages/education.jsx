@@ -11,9 +11,9 @@ export default function Education() {
 
       {educationList.map((edu, idx) => (
         <div key={idx} className="mb-3">
-          <h5 className="fw-semibold mb-1">{edu.degree}</h5>
-          <span className="text-muted d-block">{edu.institution}</span>
-          <small className="text-secondary">{edu.location} · {edu.duration}</small>
+          <h4 className="ps-2 fw-semibold mb-1">{edu.degree}</h4>
+          <span className="ps-4 text-muted d-block">{edu.institution}</span>
+          <small className="ps-4 text-secondary">{edu.location} · {edu.duration}</small>
         </div>
       ))}
     </section>
