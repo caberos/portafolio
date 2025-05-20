@@ -104,6 +104,12 @@
       "description": "Sistema para una empresa para registro de empleados, Departamentos, y accesorios, informacion de los empleados, equipos de trabajo y moviliario.",
       "technologies": ["Java", "Spring Boot", "React", "PostgreSQL", "Bootstrap"],
       "link": "https://github.com/caberos/ERPHHRR"
+    },
+     {
+      "name": "Sistema de Encuestas para elecciones Generales",
+      "description": "Sistema que simula votaciones y encuestas para elecciones generales, con formularios para votantes, base de datos no relacional y backend Flask.",
+      "technologies": ["Python", "Flask", "React", "MongoDB", "Bootstrap"],
+      "link": "https://encuestabol.onrender.com/"
     } 
   ],
   "skills_title": "Habilidades Técnicas",
