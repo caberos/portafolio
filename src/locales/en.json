@@ -108,7 +108,7 @@
       "name": "Survey System for General Elections",
       "description": "System that simulates voting and surveys for general elections, with forms for voters, a non-relational database, and a Flask backend.",
       "technologies": ["Python", "Flask", "React", "MongoDB", "Bootstrap"],
-      "link": "https://encuestabol.onrender.com/"
+      "link": "https://caberos.github.io/encuestaui"
     } 
   ],
   "skills_title": "Technical Skills",

@@ -109,7 +109,7 @@
       "name": "Sistema de Encuestas para elecciones Generales",
       "description": "Sistema que simula votaciones y encuestas para elecciones generales, con formularios para votantes, base de datos no relacional y backend Flask.",
       "technologies": ["Python", "Flask", "React", "MongoDB", "Bootstrap"],
-      "link": "https://encuestabol.onrender.com/"
+      "link": "https://caberos.github.io/encuestaui"
     } 
   ],
   "skills_title": "Habilidades Técnicas",
