@@ -6,8 +6,11 @@
     "skills": "Habilidades",
     "contact": "Contacto",
     "greeting": "Hola, Soy Daniel Cabero",
+    "work": "Desarrollador Fullstack, Ingeniero de Automatización QA",
     "street":" · Calle Satinadores de Selva · Cochabamba, BO · (+591) 60792226 ·",
     "email":" cabernaldo010788@gmail.com",
+    "linkedin":" · https://www.linkedin.com/in/danielfcaberobarrios",
+    "github":" · https://github.com/caberos",
     "description": "Especialista en el desarrollo y mejora de sistemas tecnológicos para la transformación digital. Experiencia implementando herramientas backend, automatizaciones y APIs que han reducido tiempos operativos hasta en un 50%. Enfocado en eficiencia operativa, buenas prácticas de TI y trabajo colaborativo. Capacidad para evaluar, optimizar e innovar sistemas críticos, alineado con estándares modernos de desarrollo.",
     "experience_title": "Experiencia Profesional",
     "experiences": [
@@ -43,6 +46,18 @@
           "Realicé pruebas unitarias y de integración exhaustivas para identificar y resolver defectos de software, lo que resultó en una mayor confiabilidad y rendimiento de los componentes clave del sistema.",
           "Implementé prácticas de integración continua, aprovechando Java (Gradle, Maven) y Python para iniciar y optimizar los flujos de trabajo del proyecto, impulsando la eficiencia del desarrollo y la calidad del código.",
           "Contribuí a procesos de transformación digital fortaleciendo la calidad del software entregado."
+        ]
+      },
+      {
+        "title": "Desarrollador Fullstack",
+        "company": "ADI Centro de Capacitacion - Proyecto a pedido",
+        "location": "Cochabamba, Bolivia",
+        "duration": "2024 - 2025",
+        "points": [
+            "Desarrollo de backend y base de datos no relacional (MongoDB).",
+            "Creación de formularios dinámicos con validaciones para usuarios internos.",
+            "Implementé páginas interactivas para la simulación de operaciones bancarias, permitiendo a los usuarios realizar transacciones como si fueran personal del banco.",
+            "Creación de formularios dinámicos con validaciones para usuarios internos."
         ]
       }
     ],
@@ -114,7 +129,7 @@
   ],
   "skills_title": "Habilidades Técnicas",
   "skills_list": [
-    "Python", "Java", "JavaScript", "Node.js",
+    "Python", "Java", "JavaScript", "Node.js","Ruby",
     "Spring Boot", "Django", "Flask", "MongoDB",
     "Selenium", "Cypress", "Robot Framework", "React",
     "TailwindCSS", "Bootstrap", "PostgreSQL","Cucumber",
@@ -130,7 +145,8 @@
   "name":"Nombre",
   "email_To":"Correo electrónico",
   "message":"Mensaje",
-  "send":"Enviar"
+  "send":"Enviar",
+  "view_code":"Ver código"
 }
   
   

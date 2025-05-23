@@ -7,10 +7,10 @@ export default function Skills() {
 
   return (
     <section id="skills" className="container py-4">
-      <h2 className="mb-4 border-bottom pb-2 text-center">{t('skills_title')}</h2>
-      <div className="d-flex flex-wrap gap-2">
+      <h2 className="mb-3 border-bottom pb-2 text-center">{t('skills_title')}</h2>
+      <div className="d-flex flex-wrap gap-2 justify-content-center">
         {skills.map((skill, idx) => (
-          <span key={idx} className="badge bg-primary">{skill}</span>
+          <span key={idx} className="badge bg-success">{skill}</span>
         ))}
       </div>
     </section>

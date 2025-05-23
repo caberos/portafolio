@@ -6,8 +6,11 @@
     "skills": "Skills",
     "contact": "Contact",
     "greeting": "Hello, I'm Daniel Cabero",
+    "work":" Fullstack Developer, QA Automation Engineer",
     "street":" · Satinadores de Selva street · Cochabamba, BO · (+591) 60792226 ·",
     "email":"cabernaldo010788@gmail.com",
+    "linkedin":" · https://www.linkedin.com/in/danielfcaberobarrios",
+    "github":" · https://github.com/caberos",
     "description": "Specialist in the development and improvement of technological systems for digital transformation. Experienced in implementing backend tools, automations, and APIs that have reduced operational times by up to 50%. Focused on operational efficiency, IT best practices, and collaborative work. Skilled at evaluating, optimizing, and innovating critical systems, aligned with modern development standards.",
     "experiences": [
       {
@@ -42,6 +45,18 @@
           "Collaborated closely with cross-functional teams to architect, develop, and maintain robust backend systems, ensuring seamless integration with front-end applications and optimizing system performance.",
           "Performed comprehensive unit and integration testing to identify and resolve software defects, resulting in increased reliability and performance of key system components",
           "Implemented continuous integration practices, leveraging Java (Gradle, Maven) and Python to initiate and streamline project workflows, boosting development efficiency and code quality"
+        ]
+      },
+      {
+        "title": "Fullstack Developer",
+        "company": "ADI Training Center - Project on request",
+        "location": "Cochabamba, Bolivia",
+        "duration": "2024 - 2025",
+        "points": [
+            "Backend development and non-relational database (MongoDB).",
+            "Creation of dynamic forms with validations for internal users.",
+            "Implemented interactive pages for simulating banking operations, allowing users to perform transactions as if they were bank staff.",
+            "Creation of dynamic forms with validations for internal users."
         ]
       }
     ],
@@ -129,6 +144,7 @@
   "name":"Name",
   "email_To":"Email",
   "message":"Message",
-  "send":"Send"
+  "send":"Send",
+  "view_code":"View code"
   }
   

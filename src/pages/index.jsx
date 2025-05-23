@@ -11,16 +11,19 @@ export default function Index() {
             <h1 className="mb-0">  
               <span className="text-primary">{t('greeting')}</span>
             </h1>
-            <div className="subheading mb-4">
+            <h5 className='mb-3'> <span className="text-primary">{t('work')}</span></h5>
+            <div className="subheading mb-3">
               {t('street')}
               <a href="mailto:cabernaldo010788@email.com" className="ms-1">{t('email')}</a>
-            </div>
-            <p className="lead text-justify text-center mb-4">
-            {t('description')}
-            </p>
-            <div className="social-icons">
+              <p><a href="https://www.linkedin.com/in/danielfcaberobarrios" target="_blank" rel="noopener noreferrer" className="text-decoration-none"> {t('linkedin')} </a>
+              <a href="https://github.com/caberos" target="_blank" rel="noopener noreferrer" className="text-decoration-none"> {t('github')} </a>
+              </p>
               
             </div>
+            <p className="lead text-justify text-center mb-5">
+            {t('description')}
+            </p>
+           
           </div>
         </section>
       </div>
