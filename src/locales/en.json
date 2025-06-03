@@ -124,7 +124,13 @@
       "description": "System that simulates voting and surveys for general elections, with forms for voters, a non-relational database, and a Flask backend.",
       "technologies": ["Python", "Flask", "React", "MongoDB", "Bootstrap"],
       "link": "https://caberos.github.io/encuestaui"
-    } 
+    } ,
+    {
+      "name": "Dev vs QA Blog Page",
+      "description": "A page showcasing the differences between a developer and a QA automation engineer, featuring a modern responsive design and suggestions for various fields.",
+      "technologies": [  "React",  "Bootstrap"],
+      "link": "https://bugblog-kriy.vercel.app/"
+    }
   ],
   "skills_title": "Technical Skills",
   "skills_list": [
